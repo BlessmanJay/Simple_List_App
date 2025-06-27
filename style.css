@@ -1,0 +1,70 @@
+/* Mobile-friendly Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+}
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  font-size: 16px;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+li {
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  input[type="text"],
+  button {
+    width: 94%;
+    margin: 5px 0;
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  button {
+    width: 100%;
+    margin: 5px 0;
+    display: block;
+  }
+}
+
+/* color */
+h1 {
+  color: red;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#list-word {
+  color: blue;
+}
+#app-word {
+  color: rgb(103, 245, 103);
+}
+.added-list {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #949491;
+  text-align: center;
+  margin-top: 15rem;
+  padding: 20px;
+}
