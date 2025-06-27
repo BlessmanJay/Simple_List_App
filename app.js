@@ -21,6 +21,7 @@ function addItem() {
     deleteButton.style.cursor = "pointer";
     deleteButton.style.padding = 0;
     deleteButton.style.border = "none";
+    deleteButton.style.fontSize = "12px";
 
     // add click event to delete the item
     deleteButton.addEventListener("click", function () {
